@@ -1,0 +1,100 @@
+{
+  "experience": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Discovering Yoga",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Leraning Yoga",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Spritual Journey",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Yoga Expert",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/yoga3.png",
+      "title": "Yoga",
+      "description": "I teach traditional Hatha Yoga, which is my foundation, my first refuge. I teach traditional Hatha Yoga, which is my foundation, my first refugeI teach traditional Hatha Yoga, which is my foundation, my first refugeI teach traditional Hatha Yoga, which is my foundation, my first refugeI teach traditional Hatha Yoga, which is my foundation, my first refuge. I teach traditional Hatha Yoga, which is my foundation, my first refuge. I teach traditional Hatha Yoga, which is my foundation, my first refugeI teach traditional Hatha Yoga, which is my foundation, my first refugeI teach traditional Hatha Yoga, which is my foundation, my first refugeI teach traditional Hatha Yoga, which is my foundation, my first refuge"
+    },
+    {
+      "id": "2",
+      "src": "./img/sound-healing.png",
+      "title": "Sound Healing With Tibetan Bowl",
+      "description": "My healing through the vibratory power of SOUND. Having touched on various meditation methods, this time I found another healing power in the vibratory power of SOUND.Sound is a powerful force that affects mind, body and soul."
+    },
+    {
+      "id": "3",
+      "src": "./img/about-me.png",
+      "title": "Nutrition",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "src": "./img/massage.png",
+      "title": "Massage",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ],
+  "journey": [
+    {
+      "id": "1",
+      "heading": "Varanasi",
+      "story": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?",
+      "src": ["./img/yoga2.png", "./img/yoga3.png","./img/massage.png","./img/about-me.png","./img/sound-healing.png","./img/massage.png"]
+    },
+    {
+      "id": "2",
+      "heading": "Pranayama",
+      "story": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?",
+      "src": ["./img/yoga2.png", "./img/yoga3.png","./img/massage.png","./img/about-me.png","./img/sound-healing.png","./img/massage.png"]
+    },
+    {
+      "id": "3",
+      "heading": "Some heading",
+      "story": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit.Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus excepturi commodi nam nulla sit error sint voluptatem non quibusdam, modi corporis eligendi fugiat recusandae explicabo, maxime repellat deserunt perferendis?",
+      "src": ["./img/yoga2.png", "./img/yoga3.png"]
+    }
+  ]
+}
