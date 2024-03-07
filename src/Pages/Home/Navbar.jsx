@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -10,6 +11,16 @@ function Navbar() {
 
   const closeMenu = () => {
     setNavActive(false);
+  };
+
+  const navigate = useNavigate();
+
+  const navigateToMyJourney = () => {
+    navigate("/my-journey");
+  };
+
+  const navigateToHome = () => {
+    navigate("/");
   };
 
   useEffect(() => {
@@ -35,7 +46,12 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img
+          className="logo"
+          onClick={navigateToHome}
+          src="/img/logo.svg"
+          alt="Logoipsum"
+        />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -49,8 +65,8 @@ function Navbar() {
         <ul>
           <li>
             <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
+              onClick={navigateToHome}
+              // activeClass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
@@ -63,60 +79,19 @@ function Navbar() {
           </li>
           <li>
             <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
+              onClick={navigateToMyJourney}
+              // activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={500}
-              to="AboutMe"
-              className="navbar--content"
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="Journey"
+              to="MyJourney"
               className="navbar--content"
             >
               Journey
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
         </ul>
       </div>
-      {/* <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link> */}
     </nav>
   );
 }

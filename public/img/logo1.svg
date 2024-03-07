@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="187" height="40" viewBox="0 0 200 200">
+  <!-- Circle representing harmony -->
+  <circle cx="100" cy="100" r="90" stroke="#34a853" stroke-width="8" fill="none"/>
+  <!-- Two abstract figures representing balance -->
+  <path d="M50 100c0-20 16-36 36-36s36 16 36 36-16 36-36 36-36-16-36-36z" fill="#34a853"/>
+  <path d="M150 100c0-20-16-36-36-36s-36 16-36 36 16 36 36 36 36-16 36-36z" fill="#34a853"/>
+</svg>
