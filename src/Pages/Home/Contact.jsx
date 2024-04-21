@@ -12,7 +12,7 @@ export default function Contact() {
             Discover what your body needs to thrive transform for the better.
           </p>
           <p className="contact--section--heading-bottom">
-            ONLINE CLASSES | ONLINE CLASSES | GROUP CLASSES |
+            ONLINE CLASSES | PRIVATE CLASSES | GROUP CLASSES |
             COLLABORATION/RETREATS 
           </p>
         </div>
