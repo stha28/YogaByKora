@@ -237,6 +237,7 @@ h2 {
   padding-top: 40px;
   gap: 21.333px;
   justify-content: space-around;
+  text-align: justify;
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
@@ -407,6 +408,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img {
+  padding-left: 50px;
   display: grid;
   width: 660px;
   height: 00px;
@@ -434,6 +436,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
+  text-align: justify;
 }
 .journey--section--img {
   display: flex;
@@ -478,16 +481,28 @@ h2 {
 }
 .my--journey--heading {
   font-family: headingFont-semiBold;
+  max-width: 50%;
   font-size: 24px;
   margin-bottom: 10px;
 }
 .my--journey--content {
   font-family: contentFont;
   color: #5e4d41;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 250;
   margin-bottom: 20px;
   text-align: justify;
+
+  column-width: 4%;
+  column-gap: 50px;
+  column-count: 2;
+}
+.my--journey--content--gandhi {
+  font-family: contentFont;
+  color: #5e4d41;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
 }
 .my--journey--photos {
   max-width: fit-content;
@@ -513,16 +528,29 @@ h2 {
 /* my-journey-ends */
 
 .courses--section {
-  padding: 133.333px 130px;
+  padding: 133.333px 70px;
 }
 
 .courses--content--box {
+  /* background-image: url("../public/img/bali1.jpg"); */
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 40px;
   font-weight: 300;
 }
+.courses--content--child {
+  min-width: 40%;
+  max-width: 48%;
+}
 
+.courses--content--holder {
+  display: flex;
+  flex-wrap: wrap;
+}
 .courses--heading {
   border-radius: 70px;
   text-align: center;

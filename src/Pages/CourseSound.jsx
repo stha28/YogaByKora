@@ -47,8 +47,8 @@ export default function CourseSound() {
                       <h2 className="portfolio--section--title">
                         {item.title}
                       </h2>
-                      <p className="text-md">Duration: {item.duration}</p>
-                      <p className="text-md">Capacity: {item.capacity}</p>
+                      <p className="text-md">{item.duration}</p>
+                      <p className="text-md">{item.capacity}</p>
                     </div>
                   </div>
                   <div></div>

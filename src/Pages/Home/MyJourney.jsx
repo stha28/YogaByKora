@@ -14,6 +14,21 @@ export default function MyJourney() {
       );
     }
   };
+
+  const renderContent = (item) => {
+    if (item.id == 3) {
+      return (
+        <div className="my--journey--content--gandhi">
+          <p>{item.story}</p>
+        </div>
+      );
+    }
+    return (
+      <div className="my--journey--content">
+        <p>{item.story}</p>
+      </div>
+    );
+  };
   return (
     <>
       <ScrollToTop />
@@ -23,9 +38,10 @@ export default function MyJourney() {
             <div className="my--journey--heading">
               <h3>{item.heading}</h3>
             </div>
-            <div className="my--journey--content">
+            {/* <div className="my--journey--content">
               <p>{item.story}</p>
-            </div>
+            </div> */}
+            {renderContent(item)}
             {renderImages(item)}
           </div>
         ))}
@@ -34,7 +50,8 @@ export default function MyJourney() {
         </div>
         <div className="my--journey--content">
           <p>With Love,</p>
-          <br></br>
+        </div>
+        <div className="my--journey--content">
           <p>Kora</p>
         </div>
       </section>
