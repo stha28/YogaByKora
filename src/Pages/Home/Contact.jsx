@@ -57,6 +57,12 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <div>
+        <p className="contact--section--heading-bottom">
+          Do you have any questions or need more information? CONTACT ME ( lien)
+        </p>
+         
+      </div>
     </section>
   );
 }

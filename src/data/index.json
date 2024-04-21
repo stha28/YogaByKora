@@ -42,7 +42,7 @@
     },
     {
       "id": "3",
-      "src": ["../img/about-me.png"],
+      "src": ["../img/nutrition.jpg"],
       "path": "nutrition",
       "title": "Nutrition",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
@@ -188,21 +188,21 @@
       "src": ["../img/sound-healing.png"],
       "title": "Himalaya sound meditation",
       "duration": "1 hour",
-      "capacity": "SMALL GROUP 8 people MAX in studio"
+      "capacity": "SMALL GROUP"
     },
     {
       "id": "2",
       "src": ["../img/sound-healing.png"],
       "title": "7 chakra and Nadi balancing",
       "duration": "1 hour",
-      "capacity": "Individual session at home or in the studio"
+      "capacity": "Individual session"
     },
     {
       "id": "3",
       "src": ["../img/sound-healing.png"],
       "title": "WORK SHOP Sound healing Bowl",
-      "duration": "1.5 hours: 1 hour sound meditation & 30 min",
-      "capacity": "GROUP 10 people Maximum"
+      "duration": "1:30 hour",
+      "capacity": "GROUP 10"
     }
   ]
 }

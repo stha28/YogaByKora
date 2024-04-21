@@ -36,6 +36,20 @@ function Footer() {
             </li>
           </ul>
         </div>
+        <div className="footer--social--icon">
+          <ul>
+            <li>
+              <button className="btn--footer">yogabykora@gmail.com</button>
+            </li>
+          </ul>
+        </div>
+        <div className="footer--social--icon">
+          <ul>
+            <li>
+              <button className="btn--footer">WhatsApp: +33 611931427</button>
+            </li>
+          </ul>
+        </div>
       </div>
       <hr className="divider" />
       <div className="footer--content--container">

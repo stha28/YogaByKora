@@ -95,6 +95,11 @@ p {
   background-color: var(--white);
 }
 
+.btn--footer {
+  background-color: var(--bg-shade);
+  color: black;
+  border: none;
+}
 .logo {
   cursor: pointer;
 }
@@ -380,6 +385,7 @@ h2 {
 }
 .contact--section-items {
   max-width: 49%;
+  min-width: 49%;
   margin-bottom: 40px;
 }
 .contact--item-heading {
@@ -410,7 +416,7 @@ h2 {
 .about--section--img {
   padding-left: 50px;
   display: grid;
-  width: 660px;
+  width: 860px;
   height: 00px;
   border-radius: 20px;
 }
@@ -440,7 +446,7 @@ h2 {
 }
 .journey--section--img {
   display: flex;
-  height: 70%;
+  height: 80%;
   width: 100%;
   padding-bottom: 70px;
   background: url("../public/img/yoga3.png");
@@ -481,7 +487,7 @@ h2 {
 }
 .my--journey--heading {
   font-family: headingFont-semiBold;
-  max-width: 50%;
+  text-align: center;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -532,20 +538,22 @@ h2 {
 }
 
 .courses--content--box {
-  /* background-image: url("../public/img/bali1.jpg"); */
+  background-image: url("../public/img/yoga-background.jpg");
+  background-position: center;
+  background-size: cover;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 40px;
   font-weight: 300;
 }
-.courses--content--child {
+/* .courses--content--child {
   min-width: 40%;
   max-width: 48%;
-}
+} */
 
 .courses--content--holder {
   display: flex;
