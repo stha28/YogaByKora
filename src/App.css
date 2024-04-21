@@ -1,9 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..350;1,100..700&family=Protest+Riot&family=Stalemate&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..350;1,100..700&family=Protest+Riot&family=Stalematewght@0,100..350&display=swap"); */
+
+@font-face {
+  font-family: headingFont;
+  src: url(./fonts/black-mango-font-modern-beauty-family/black-mango-font-modern-beauty-family/Variable/BlackMangoVariableGX.ttf);
+}
+@font-face {
+  font-family: headingFont-semiBold;
+  src: url(./fonts/black-mango-font-modern-beauty-family/black-mango-font-modern-beauty-family/TTF/BlackMango-SemiBold.ttf);
+}
+@font-face {
+  font-family: contentFont;
+  src: url(./fonts/glacial-indifference/GlacialIndifference-Regular.otf);
+}
 body {
   margin: 0;
-  font-family: "Josefin Sans", sans-serif;
-  -webkit-font-smoothing: "Josefin Sans", sans-serif;
-  -moz-osx-font-smoothing: "Josefin Sans", sans-serif;
+  font-family: contentFont;
+  -webkit-font-smoothing: contentFont;
+  -moz-osx-font-smoothing: contentFont;
   font-style: normal;
 }
 h1,
@@ -24,7 +37,7 @@ p {
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
-  --button-color: #a989be;
+  --button-color: #a9b9be;
 }
 .btn {
   font-family: "Roboto";
@@ -90,6 +103,7 @@ p {
 
 /* Heading 1 */
 h1 {
+  font-family: headingFont;
   font-size: 56px;
   font-weight: 500;
   line-height: 67px;
@@ -194,12 +208,15 @@ h2 {
 }
 /* Navbar Styler Ends */
 
+/* main page parent div */
+
 /* Hero Section Style */
 .hero--section {
   display: flex;
+  flex-direction: column;
   padding: 133.333px 85.333px 133.333px;
   justify-content: space-between;
-  gap: 32px;
+  /* gap: 32px; */
   background: url("../public/img/yoga2.png");
   background-position: center;
   background-size: cover;
@@ -210,7 +227,8 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  justify-content: space-between;
+  /* gap: 150px; */
 }
 .hero--section--content {
   display: flex;
@@ -218,6 +236,7 @@ h2 {
   align-items: flex-start;
   padding-top: 40px;
   gap: 21.333px;
+  justify-content: space-around;
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
@@ -230,9 +249,18 @@ h2 {
   align-self: stretch;
 }
 .hero--section--title--color {
-  font-family: "Stalemate", cursive;
-  font-size: 250px;
+  font-family: headingFont;
+  font-size: 180px;
   color: var(--bg-shade);
+}
+.hero--section-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: headingFont;
+  font-size: 27px;
+  color: var(--bg-shade);
+  font-style: italic;
 }
 .hero--section-description {
   color: var(--darkblue);
@@ -323,6 +351,50 @@ h2 {
 }
 /* Skills Style Ends */
 
+/* Contact Section starts*/
+.contact--section {
+  display: flex;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  padding: 0px 85px;
+  margin: 0px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 64px;
+}
+
+.contact--section-heading {
+  font-family: headingFont;
+  padding-top: 20px;
+}
+.contact--section--heading-bottom {
+  font-weight: bold;
+  color: var(--button-color);
+}
+.contact--section--lists {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.contact--section-items {
+  max-width: 49%;
+  margin-bottom: 40px;
+}
+.contact--item-heading {
+  font-family: headingFont;
+  color: var(--button-color);
+  font-size: 25px;
+}
+.contact--item-info {
+  font-family: contentFont;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 22px;
+}
+
+/* Contact Section ends*/
+
 /* About Us */
 .about--section {
   display: grid;
@@ -336,8 +408,8 @@ h2 {
 }
 .about--section--img {
   display: grid;
-  width: 100%;
-  height: 100%;
+  width: 660px;
+  height: 00px;
   border-radius: 20px;
 }
 .about--section--img > img {
@@ -365,10 +437,10 @@ h2 {
 }
 .journey--section--img {
   display: flex;
-  height: 100%;
+  height: 70%;
   width: 100%;
-  padding-bottom: 24px;
-  background: url("../public/img/sound-healing.png");
+  padding-bottom: 70px;
+  background: url("../public/img/yoga3.png");
   background-position: center;
   background-repeat: no-repeat;
   align-items: flex-end;
@@ -396,7 +468,8 @@ h2 {
 
 /* my-journey starts */
 .my--journey--section {
-  padding: 133.333px 100px;
+  background-color: var(--bg-shade);
+  padding: 133.333px 200px;
 }
 .my--journey--content--box {
   display: flex;
@@ -404,14 +477,17 @@ h2 {
   margin-bottom: 40px;
 }
 .my--journey--heading {
-  font-family: "Protest Riot", cursive;
+  font-family: headingFont-semiBold;
   font-size: 24px;
   margin-bottom: 10px;
 }
 .my--journey--content {
+  font-family: contentFont;
+  color: #5e4d41;
   font-size: 24px;
   font-weight: 250;
   margin-bottom: 20px;
+  text-align: justify;
 }
 .my--journey--photos {
   max-width: fit-content;
@@ -459,7 +535,6 @@ h2 {
   padding: 15px 8px;
   border-radius: 20px;
   width: fit-content;
-  background-color: #ffe6e6;
   margin-top: 20px;
 }
 .courses--content {
@@ -484,8 +559,7 @@ h2 {
   padding: 10px 15px;
   margin-top: 5px;
   border-radius: 20px;
-  color: white;
-  background-color: #ad88c6;
+  color: black;
   font-size: 28px;
   font-weight: 300;
   margin-bottom: 20px;
@@ -558,7 +632,6 @@ h2 {
   flex: 1 0 0;
   background: var(--bg-shade);
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
   /* border-top-left-radius: 20px;
   border-top-right-radius: 20px; */
 }
@@ -571,7 +644,7 @@ h2 {
   padding-right: 32px;
   padding-bottom: 0px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 32px;
   align-self: stretch;
 }
@@ -653,7 +726,7 @@ h2 {
   line-height: 150%;
 }
 /* Testimonial Ends */
-.contact--section {
+/* .contact--section {
   display: flex;
   padding: 150px 85px;
   flex-direction: column;
@@ -661,7 +734,7 @@ h2 {
   align-items: center;
   text-align: center;
   gap: 64px;
-}
+} */
 .contact--form--container {
   display: grid;
   grid-template-columns: auto;
@@ -795,7 +868,7 @@ input[type="checkbox"] {
   }
   .hero--section-description {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 18px;
   }
   .skills--section--title {
     font-size: 28px;
@@ -812,8 +885,10 @@ input[type="checkbox"] {
     gap: 20px;
     /* grid-template-columns: repeat(2, 1fr); */
   }
-  .hero--section--content {
-    padding: 0px;
+
+  .hero--section--content-quote {
+    font-size: 10px;
+    color: black;
   }
   .journey--section {
     max-width: 100%;

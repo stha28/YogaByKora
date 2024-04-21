@@ -1,7 +1,19 @@
 import data from "../../data/index.json";
+import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 
 export default function MyJourney() {
+  const renderImages = (item) => {
+    if (item.src.length > 0) {
+      return (
+        <div className="my--journey--photos">
+          {item.src.map((src) => (
+            <img src={src} alt="" />
+          ))}
+        </div>
+      );
+    }
+  };
   return (
     <>
       <ScrollToTop />
@@ -14,14 +26,19 @@ export default function MyJourney() {
             <div className="my--journey--content">
               <p>{item.story}</p>
             </div>
-            <div className="my--journey--photos">
-              {item.src.map((src) => (
-                <img src={src} alt="" />
-              ))}
-            </div>
+            {renderImages(item)}
           </div>
         ))}
+        <div className="my--journey--content">
+          <p>I look forward to practising together.</p>
+        </div>
+        <div className="my--journey--content">
+          <p>With Love,</p>
+          <br></br>
+          <p>Kora</p>
+        </div>
       </section>
+      <Footer />
     </>
   );
 }

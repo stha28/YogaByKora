@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import ScrollToTop from "./Home/ScrollToTop";
 import data from "../data/index.json";
 

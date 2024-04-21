@@ -7,6 +7,9 @@ import MyJourney from "./Pages/Home/MyJourney";
 import Courses from "./Pages/Courses";
 import CourseYoga from "./Pages/CourseYoga";
 import CourseSound from "./Pages/CourseSound";
+import CourseMassage from "./Pages/CourseMassage";
+import CourseNutrition from "./Pages/CourseNutrition";
+import Contact from "./Pages/Home/Contact";
 
 function App() {
   return (
@@ -18,6 +21,12 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/my-journey" element={<MyJourney />}></Route>
             <Route path="/courses/yoga" element={<CourseYoga />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/courses/massage" element={<CourseMassage />}></Route>
+            <Route
+              path="/courses/nutrition"
+              element={<CourseNutrition />}
+            ></Route>
             <Route
               path="/courses/sound-healing"
               element={<CourseSound />}

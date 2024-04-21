@@ -19,6 +19,10 @@ function Navbar() {
     navigate("/my-journey");
   };
 
+  const navigateToContact = () => {
+    navigate("/contact");
+  };
+
   const navigateToHome = () => {
     navigate("/");
   };
@@ -49,7 +53,7 @@ function Navbar() {
         <img
           className="logo"
           onClick={navigateToHome}
-          src="/img/logo.svg"
+          src="/img/Heliotrope.svg"
           alt="Logoipsum"
         />
       </div>
@@ -90,6 +94,19 @@ function Navbar() {
               Journey
             </Link>
           </li>
+          {/* <li>
+            <Link
+              onClick={navigateToContact}
+              // activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              duration={500}
+              to="Contact"
+              className="navbar--content"
+            >
+              Contact
+            </Link>
+          </li> */}
         </ul>
       </div>
     </nav>
