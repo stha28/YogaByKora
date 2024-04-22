@@ -566,6 +566,26 @@ h2 {
   scroll-snap-align: start;
   border-radius: 10px;
 }
+.my--journey--photos--nepal {
+  max-height: 100%;
+  max-width: fit-content;
+  padding: 10px 10px;
+  background-color: var(--bg-shade);
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  gap: 20px;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: 40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.my--journey--photos--nepal img {
+  max-width: 600px;
+  max-height: 600px;
+  scroll-snap-align: start;
+  border-radius: 10px;
+}
+
 /* my-journey-ends */
 
 .courses--section {

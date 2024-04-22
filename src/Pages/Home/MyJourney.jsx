@@ -75,7 +75,7 @@ export default function MyJourney() {
               you to fulfillment.
             </p>
           </div>
-          <div className="my--journey--photos">
+          <div className="my--journey--photos--nepal">
             {item.src.map((src) => (
               <img src={src} alt="" />
             ))}
