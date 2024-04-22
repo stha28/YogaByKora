@@ -489,19 +489,56 @@ h2 {
   font-family: headingFont-semiBold;
   text-align: center;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .my--journey--content {
+  font-family: contentFont;
+  color: #5e4d41;
+  font-size: 28px;
+  font-weight: 250;
+  margin-bottom: 20px;
+  text-align: justify;
+  /* 
+  column-width: 4%;
+  column-gap: 50px;
+  column-count: 2; */
+}
+.my--journey--info {
+  display: flex;
+  flex-direction: column;
+  font-family: contentFont;
+  padding-right: 30px;
+  color: #5e4d41;
+  font-size: 28px;
+  font-weight: 250;
+  margin-bottom: 20px;
+  text-align: justify;
+  max-width: 50%;
+}
+.my--journey--info--vipasana {
+  font-family: contentFont;
+  padding-left: 30px;
+  color: #5e4d41;
+  font-size: 28px;
+  font-weight: 250;
+  margin-bottom: 20px;
+  text-align: justify;
+  max-width: 50%;
+}
+.my--journey--content--with--photos {
+  display: flex;
+  flex-direction: row;
   font-family: contentFont;
   color: #5e4d41;
   font-size: 25px;
   font-weight: 250;
   margin-bottom: 20px;
   text-align: justify;
+  align-items: flex-start;
 
-  column-width: 4%;
+  /* column-width: 4%;
   column-gap: 50px;
-  column-count: 2;
+  column-count: 2; */
 }
 .my--journey--content--gandhi {
   font-family: contentFont;
@@ -511,12 +548,10 @@ h2 {
   font-style: italic;
 }
 .my--journey--photos {
+  max-height: 100%;
   max-width: fit-content;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: var(--button-color);
   padding: 10px 10px;
-  background-color: white;
+  background-color: var(--bg-shade);
   display: flex;
   flex-direction: row;
   overflow: auto;
@@ -527,7 +562,7 @@ h2 {
 }
 .my--journey--photos img {
   max-width: 600px;
-  height: 400px;
+  max-height: 500px;
   scroll-snap-align: start;
   border-radius: 10px;
 }
@@ -879,6 +914,7 @@ input[type="checkbox"] {
   background: var(--bg-shade);
   align-items: center;
   align-self: stretch;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 }
 .footer--link--container {
   display: flex;

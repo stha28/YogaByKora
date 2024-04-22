@@ -97,19 +97,13 @@
     },
     {
       "id": "6",
-      "heading": "Vipasana ",
-      "story": "Direction Nepal.I decide to continue my journey of self-exploration.I spend 10 days in Silence at the Dhamma Shringa center in Kathmandu, one of the most famous Vipassana centers.Vipassana means seeing things as they really are, based on observation.It's one of India's oldest meditation techniques.",
+      "heading": "Vipassana ",
+      "story": "Direction Nepal.I decide to continue my journey of self-exploration.I spend 10 days in Silence at the Dhamma Shringa center in Kathmandu, one of the most famous Vipassana centers.Vipassana means seeing things as they really are, based on observation.It's one of India's oldest meditation techniques. Here, I'm deepening my meditation practice taught by Goenka. I'm having the most enriching experience of my life. Vipassana is clearly changing my life. 10 days of silence, 10 hours of meditation a day, no distractions.Silence became my refuge.",
       "src": [
         "./img/vipasana1.jpg",
         "./img/vipasana2.jpg",
         "./img/vipasana3.jpg"
       ]
-    },
-    {
-      "id": "7",
-      "heading": "",
-      "story": "Here, I'm deepening my meditation practice taught by Goenka. I'm having the most enriching experience of my life. Vipassana is clearly changing my life. 10 days of silence, 10 hours of meditation a day, no distractions.Silence became my refuge.",
-      "src": []
     },
     {
       "id": "8",
@@ -128,12 +122,6 @@
       "id": "7",
       "heading": "",
       "story": "I'm learning KRYA YOGA with the Lahiri Mahashay family. Kriya Yoga is a technique based on concentration and energy. Shibendu Lahiri, great-grandson of Lahiri Mahasahya, father of Kriya Yoga. he shares the original teaching technique of Kriya Yoga with all those who sincerely wish to learn it. The secret and sacred techniques of Kriya Yoga are passed down unchanged from father to son in the dynastic lineage. I spend 5 days in this ashram, in the heart of Varanasi. Grateful, once again, I am nourished from within.",
-      "src": []
-    },
-    {
-      "id": "8",
-      "heading": "",
-      "story": "",
       "src": [
         "./img/vr1.jpg",
         "./img/vr2.jpg",
@@ -145,6 +133,7 @@
         "./img/vr8.jpg"
       ]
     },
+
     {
       "id": "9",
       "heading": "Nepal",
