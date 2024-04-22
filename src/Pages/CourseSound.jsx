@@ -14,7 +14,7 @@ export default function CourseSound() {
             <div className="course--section--title">
               <h3>How does the Singing bowl work?</h3>
             </div>
-            <div className="courses--details">
+            <div className="courses--details--sound ">
               <ul>
                 <li>Deep relaxation and release of tension</li>
                 <li>Improves sleep</li>
@@ -56,9 +56,6 @@ export default function CourseSound() {
               ))}
             </div>
             <br />
-            <div className="courses--photos">
-              <img src="../img/yoga2.png" alt="" />
-            </div>
           </div>
         </div>
       </section>

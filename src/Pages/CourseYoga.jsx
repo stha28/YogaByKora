@@ -8,10 +8,10 @@ export default function CourseYoga() {
       <section id="CourseYoga" className="courses--section">
         <div className="courses--content">
           <div className="courses--heading">
-            <h1>Yoga</h1>
+            <h1>Hatha Yoga</h1>
           </div>
           <div className="courses--content--box">
-            <p className="courses--details">
+            <p className="courses--details--yoga-firstline">
               There are different types of yoga, the main and ancestral ones
               being Bhakti Yoga (the yoga of devotion) Karma Yoga (the yoga of
               action) and Raja yoga (royal Yoga).
@@ -33,11 +33,9 @@ export default function CourseYoga() {
                 </li>
               </ul>
             </div>
-
             <div className="course--section--title">
               <h3>These eight steps are broken down as follows</h3>
             </div>
-
             <div className="courses--details">
               <ul>
                 <li>
@@ -55,7 +53,6 @@ export default function CourseYoga() {
                 <li>Samadhi (state of stability)</li>
               </ul>
             </div>
-
             <div className="courses--quote">
               <p>
                 {" "}
@@ -137,9 +134,6 @@ export default function CourseYoga() {
                 authentic practice.
               </p>
               <p>Practice and the rest will come.</p>
-            </div>
-            <div className="courses--photos">
-              <img src="../img/yoga2.png" alt="" />
             </div>
           </div>
         </div>

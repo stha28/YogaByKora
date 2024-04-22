@@ -417,7 +417,7 @@ h2 {
   padding-left: 50px;
   display: grid;
   width: 860px;
-  height: 00px;
+  height: 880px;
   border-radius: 20px;
 }
 .about--section--img > img {
@@ -601,6 +601,36 @@ h2 {
   margin-bottom: 20px;
   text-align: justify;
   line-height: 1.5;
+}
+.courses--details--sound {
+  column-count: 2;
+}
+.courses--heading--nutrition {
+  /* background-size: cover; */
+  display: flex;
+  color: white;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/img/nutrition-banner.jpg");
+}
+.courses--details--nutrition {
+  column-count: 2;
+  column-width: 48%;
+  column-gap: 50px;
+  text-align: justify;
+}
+.courses--section--title--nutrition {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.courses--details--yoga-firstline {
+  width: 100%;
+  text-align: center;
+  align-items: center;
 }
 .courses--photos {
   max-width: fit-content;
