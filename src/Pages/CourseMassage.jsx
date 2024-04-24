@@ -1,4 +1,5 @@
 import ScrollToTop from "./Home/ScrollToTop";
+import Footer from "./Home/Footer";
 
 export default function CourseMassage() {
   return (
