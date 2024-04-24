@@ -489,12 +489,14 @@ h2 {
   font-family: headingFont-semiBold;
   text-align: center;
   font-size: 24px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
+.my--journey--content--with--photos > p,
 .my--journey--content {
   font-family: contentFont;
   color: #5e4d41;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 250;
   margin-bottom: 20px;
   text-align: justify;
@@ -526,30 +528,41 @@ h2 {
   max-width: 50%;
 }
 .my--journey--content--with--photos {
-  display: flex;
-  flex-direction: row;
   font-family: contentFont;
   color: #5e4d41;
   font-size: 25px;
   font-weight: 250;
   margin-bottom: 20px;
   text-align: justify;
-  align-items: flex-start;
-
-  /* column-width: 4%;
-  column-gap: 50px;
-  column-count: 2; */
 }
 .my--journey--content--gandhi {
   font-family: contentFont;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #5e4d41;
   font-size: 25px;
   font-weight: 400;
   font-style: italic;
 }
 .my--journey--photos {
+  float: right;
   max-height: 100%;
   max-width: fit-content;
+  margin: 20px 0px;
+  padding: 10px 10px;
+  background-color: var(--bg-shade);
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  gap: 20px;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: 40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.my--journey--content--with--photos > .my--journey--photos {
+  max-height: 100%;
+  max-width: 50%;
+  margin: 0px 20px;
   padding: 10px 10px;
   background-color: var(--bg-shade);
   display: flex;
@@ -565,6 +578,12 @@ h2 {
   max-height: 500px;
   scroll-snap-align: start;
   border-radius: 10px;
+}
+.my--journey--ending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
 }
 .my--journey--photos--nepal {
   max-height: 100%;
@@ -645,6 +664,7 @@ h2 {
   background-color: var(--button-color);
   padding: 50px 100px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .courses--details {
   padding: 10px 15px;

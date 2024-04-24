@@ -61,6 +61,7 @@ export default function CourseMassage() {
           </div>
         </div>
       </section>
+      <Footer></Footer>
     </>
   );
 }

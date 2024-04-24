@@ -1,5 +1,6 @@
 import ScrollToTop from "./Home/ScrollToTop";
 import data from "../data/index.json";
+import Footer from "./Home/Footer";
 
 export default function CourseSound() {
   return (
@@ -59,6 +60,7 @@ export default function CourseSound() {
           </div>
         </div>
       </section>
+      <Footer></Footer>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import ScrollToTop from "./Home/ScrollToTop";
+import Footer from "./Home/Footer";
 
 export default function CourseYoga() {
   return (
@@ -138,6 +139,7 @@ export default function CourseYoga() {
           </div>
         </div>
       </section>
+      <Footer></Footer>
     </>
   );
 }

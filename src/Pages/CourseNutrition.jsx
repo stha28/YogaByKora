@@ -1,3 +1,4 @@
+import Footer from "./Home/Footer";
 import ScrollToTop from "./Home/ScrollToTop";
 
 export default function CourseNutrition() {
@@ -134,6 +135,7 @@ export default function CourseNutrition() {
           </div>
         </div>
       </section>
+      <Footer></Footer>
     </>
   );
 }

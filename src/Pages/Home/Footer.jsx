@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer--container">
+    <footer id="footer" className="footer--container">
       <div className="footer--link--container">
         <div>
           <img className="logo" src="./img/Heliotrope.svg" alt="Logoipsum" />

@@ -94,19 +94,18 @@ function Navbar() {
               Journey
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link
-              onClick={navigateToContact}
-              // activeClass="navbar--active-content"
               spy={true}
               smooth={true}
+              offset={-70}
               duration={500}
-              to="Contact"
+              to="footer"
               className="navbar--content"
             >
               Contact
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>
