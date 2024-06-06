@@ -2,27 +2,32 @@ import AboutMe from "../AboutMe";
 import Contact from "../Contact";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
+import Instagram from "../Instagram";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Navbar from "../Navbar";
 import ScrollToTop from "../ScrollToTop";
+import Wave from "../Wave";
 
 export default function Home() {
   return (
     <>
-      <div className="body--div">
-        Yoga by kora Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Voluptate excepturi minima perferendis deleniti magnam necessitatibus.
-        Nostrum harum perferendis ut ea rerum corrupti, unde repudiandae magnam
-        autem voluptatem! Minus labore itaque vel nam dignissimos in quae
-        doloremque quia, fugit error aspernatur animi molestias numquam fugiat.
-        Beatae eveniet optio in hic nostrum.
+      <div
+        className="body--div"
+        // style={{ background: "#f3f6f8"}}
+        // style={{
+        //   backgroundImage: "../img/back.webp",
+        //   backgroundSsize: "cover",
+        //   backgroundPosition: "center",
+        // }}
+      >
         <ScrollToTop />
-        <HeroSection />
+        <HeroSection title="Welcome" page="homepage" classname="home" />
         <AboutMe />
-        <MySkills />
+        {/* <MySkills /> */}
         <MyPortfolio />
         <Contact />
+        <Instagram />
         <Footer />
       </div>
     </>
